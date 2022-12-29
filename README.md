@@ -37,4 +37,5 @@ Evaluate the performance of multiple models and make a written recommendation on
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+The EasyEnsembleClassifier is the best one among all the models with an 93% Accuracy Score. Its recall rate (92% for high risk, and 94% for low risk) is quite good compared to the other models. The other models recall rates are not as good or as balance as the EasyEnsembleClassifier. For example the BalancedRandomForestClassifier model has a 100% low risk recall rate but the high risk recall rate is only 36%. As for the precision all the models gives 100% for the low risk, however most of them are extremely low in term of precision for the high risk, except for the BalancedRandomForestClassifier model. The EasyEnsembleClassifier is still the prefer model though since its recall rate is so high.
+
